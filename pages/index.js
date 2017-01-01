@@ -5,7 +5,7 @@ import typography from '../blog-typography'
 import 'styles/styles.css'
 
 const rhythm = typography.rhythm
-const profilePic = require('../images/kyle-round-small-pantheon.jpg')
+const profilePic = require('../images/sam-square.jpg')
 console.log(profilePic)
 
 class BlogIndexRoute extends React.Component {
@@ -29,10 +29,10 @@ class BlogIndexRoute extends React.Component {
                 marginBottom: 0,
                 width: rhythm(2),
                 height: rhythm(2),
+                borderRadius: rhythm(1)
               }}
             />
-            Written by <strong>{this.props.data.site.siteMetadata.author}</strong> who lives and works
-            in San Francisco building useful things. You should <a href="https://twitter.com/kylemathews">follow him on Twitter</a>
+            Written by <strong>{this.props.data.site.siteMetadata.author}</strong>, an econ nerd turned programmer. You should <a href="https://twitter.com/calcsam">follow him on Twitter</a>
           </p>
           <ul>
             {posts.map((post) => (

@@ -3,6 +3,7 @@ title: Bridging Economics and Data Science
 tags: null
 date: "2013-08-12T04:59:38.000Z"
 layout: post
+draft: false
 ---
 
 As a Stanford undergraduate, I decided to major in economics because clever uses of data were always in the air.

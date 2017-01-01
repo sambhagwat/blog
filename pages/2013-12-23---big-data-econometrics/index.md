@@ -2,6 +2,7 @@
 title: Einav and Levin on big data and econometrics
 date: "2013-12-23T23:46:37.121Z"
 layout: post
+draft: false
 ---
 A couple of economics professors at Stanford, Jonathan Levin and Liran Einav, have dived into the [econ/big data intersection](http://web.archive.org/web/20131112235212/http://www.stanford.edu/~leinav/pubs/NBER2014.pdf).
 

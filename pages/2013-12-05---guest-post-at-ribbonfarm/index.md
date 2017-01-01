@@ -1,9 +1,8 @@
 ---
 title: Guest post over at Ribbonfarm
-tags:
-  - humility
 date: "2013-12-05T03:48:00.000Z"
 layout: post
+draft: false
 ---
 
 In addition to this blog, I’m guest blogging over at Ribbonfarm; Venkat just published my first post, [Algorithmic Governance and the Ghost in the Machine](http://www.ribbonfarm.com/2013/12/01/algorithmic-governance-and-the-ghost-in-the-machine/). Hopefully the community over there can further stir the juices.
