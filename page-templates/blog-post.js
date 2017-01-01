@@ -5,7 +5,7 @@ import kebabCase from 'lodash/kebabCase'
 import get from 'lodash/get'
 import typography from '../blog-typography'
 const { rhythm, scale } = typography
-const profilePic = require('../images/kyle-round-small-pantheon.jpg')
+const profilePic = require('../images/sam-square.jpg')
 import ReadNext from '../components/ReadNext'
 const DisqusThread = require('react-disqus-thread')
 //import { query } from '../components/ReadNext'
@@ -93,14 +93,15 @@ class BlogPostRoute extends React.Component {
                 marginBottom: 0,
                 width: rhythm(2),
                 height: rhythm(2),
+                borderRadius: rhythm(1)
               }}
             />
-            <strong>{this.props.data.site.siteMetadata.author}</strong> lives and works in San Francisco building useful things. <a href="https://twitter.com/kylemathews">You should follow him on Twitter</a>
+            <strong>{this.props.data.site.siteMetadata.author}</strong> is an econ nerd turned programmer. <a href="https://twitter.com/calcsam">You should follow him on Twitter</a>
           </p>
           <DisqusThread
-            shortname="kylemathews"
+            shortname="moores-hand"
             title={post.title}
-            url={`https://bricolage.io${this.props.location.pathname}`}
+            url={`https://mooreshand.com/${this.props.location.pathname}`}
           />
         </div>
       </DocumentTitle>

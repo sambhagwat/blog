@@ -2,9 +2,9 @@ const filesystemSourcePlugin = require.resolve(`gatsby-source-filesystem`)
 
 module.exports = {
   siteMetadata: {
-    title: 'Bricolage',
-    author: 'Kyle Mathews',
-    homeCity: 'San Francisco',
+    title: "Moore's Hand",
+    author: 'Sam Bhagwat',
+    homeCity: 'Berkeley',
   },
   plugins: [
     {

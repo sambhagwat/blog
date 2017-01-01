@@ -33,7 +33,7 @@ class Wrapper extends React.Component {
               marginBottom: rhythm(1.5),
             }}
           >
-            Bricolage
+            Moore's Hand
           </h1>
         </Link>
       )
@@ -47,12 +47,12 @@ class Wrapper extends React.Component {
           }}
           to="/"
         >
-          <h3>Bricolage</h3>
+          <h3>Moore's Hand</h3>
         </Link>
       )
     }
     return (
-      <DocumentTitle title="Bricolage">
+      <DocumentTitle title="Moore's Hand">
         <Container
           style={{
             padding: `${rhythm(1.5)} ${rhythm(3/4)}`,
